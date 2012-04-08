@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>Google</title>
-  <style>body{margin:0}.w{width:625px;margin:35px auto}.d{text-align:center;font-size:13px}.d p{margin:0 0 5px}#logo{margin:20px auto}a{color:#999;text-decoration:none;display:inline-block;border-bottom:1px dashed}a:hover{border-bottom-style:solid;color:#333}</style>
+  <style>body{margin:0}.w{width:625px;margin:35px auto}.d{text-align:center;font-size:13px}.d p{margin:0 0 5px}#logo{margin:20px auto}a{color:#999;text-decoration:none;display:inline-block;border-bottom:1px dashed}a:hover{border-bottom-style:solid;color:#333}#lga{margin:0 0 30px}</style>
   
   <script>
     window.google = {
@@ -74,6 +74,7 @@
         };
       </script>
     </div>
+    <div class="g-plusone" data-annotation="inline" data-width="625" data-href="http://livingston.github.com/google-pacman/"></div>
 
     <div class='d'>
       <h4>Disclaimer:</h4>
@@ -93,6 +94,16 @@
     google.neegg = 1;
     
     google.pml && google.pml();
+
+    var _gaq = [];
+    _gaq.push(['_setAccount', 'UA-27230611-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.async = true;
+      ga.src = 'http://www.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
   </script>
+  <script src="https://apis.google.com/js/plusone.js"></script>
 </body>
 </html>
